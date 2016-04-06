@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0452E61CB4B49400733DC4 /* eigthVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0452E51CB4B49400733DC4 /* eigthVc.m */; };
 		CBD44D481CB362000084B504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D471CB362000084B504 /* main.m */; };
-		CBD44D4B1CB362000084B504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D4A1CB362000084B504 /* AppDelegate.m */; };
-		CBD44D4E1CB362000084B504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D4D1CB362000084B504 /* ViewController.m */; };
 		CBD44D511CB362000084B504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD44D4F1CB362000084B504 /* Main.storyboard */; };
 		CBD44D531CB362000084B504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD44D521CB362000084B504 /* Assets.xcassets */; };
 		CBD44D561CB362000084B504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD44D541CB362000084B504 /* LaunchScreen.storyboard */; };
 		CBD44D611CB362000084B504 /* WJSegmentMeunVcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D601CB362000084B504 /* WJSegmentMeunVcTests.m */; };
 		CBD44D6C1CB362000084B504 /* WJSegmentMeunVcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D6B1CB362000084B504 /* WJSegmentMeunVcUITests.m */; };
+		CBD44D7F1CB362990084B504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D7C1CB362990084B504 /* AppDelegate.m */; };
+		CBD44D801CB362990084B504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D7E1CB362990084B504 /* ViewController.m */; };
+		CBD44D831CB363AB0084B504 /* WJSegmentMenuVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D821CB363AB0084B504 /* WJSegmentMenuVc.m */; };
+		CBD44D861CB365050084B504 /* oneVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D851CB365050084B504 /* oneVc.m */; };
+		CBD44D891CB365150084B504 /* twoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D881CB365150084B504 /* twoVc.m */; };
+		CBD44D8C1CB367FA0084B504 /* threeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D8B1CB367FA0084B504 /* threeVc.m */; };
+		CBD44D8F1CB368070084B504 /* fourVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D8E1CB368070084B504 /* fourVc.m */; };
+		CBD44D921CB368130084B504 /* fireVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D911CB368130084B504 /* fireVc.m */; };
+		CBD44D951CB3682A0084B504 /* sixVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D941CB3682A0084B504 /* sixVc.m */; };
+		CBD44D981CB3684A0084B504 /* sevenVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD44D971CB3684A0084B504 /* sevenVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0452E41CB4B49400733DC4 /* eigthVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eigthVc.h; sourceTree = "<group>"; };
+		CB0452E51CB4B49400733DC4 /* eigthVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eigthVc.m; sourceTree = "<group>"; };
 		CBD44D431CB362000084B504 /* WJSegmentMeunVc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJSegmentMeunVc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD44D471CB362000084B504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBD44D491CB362000084B504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CBD44D4A1CB362000084B504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBD44D4C1CB362000084B504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBD44D4D1CB362000084B504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBD44D501CB362000084B504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBD44D521CB362000084B504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBD44D551CB362000084B504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,26 @@
 		CBD44D671CB362000084B504 /* WJSegmentMeunVcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJSegmentMeunVcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD44D6B1CB362000084B504 /* WJSegmentMeunVcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJSegmentMeunVcUITests.m; sourceTree = "<group>"; };
 		CBD44D6D1CB362000084B504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD44D7B1CB362990084B504 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBD44D7C1CB362990084B504 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBD44D7D1CB362990084B504 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBD44D7E1CB362990084B504 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBD44D811CB363AB0084B504 /* WJSegmentMenuVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSegmentMenuVc.h; sourceTree = "<group>"; };
+		CBD44D821CB363AB0084B504 /* WJSegmentMenuVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSegmentMenuVc.m; sourceTree = "<group>"; };
+		CBD44D841CB365050084B504 /* oneVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneVc.h; sourceTree = "<group>"; };
+		CBD44D851CB365050084B504 /* oneVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneVc.m; sourceTree = "<group>"; };
+		CBD44D871CB365150084B504 /* twoVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoVc.h; sourceTree = "<group>"; };
+		CBD44D881CB365150084B504 /* twoVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoVc.m; sourceTree = "<group>"; };
+		CBD44D8A1CB367FA0084B504 /* threeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeVc.h; sourceTree = "<group>"; };
+		CBD44D8B1CB367FA0084B504 /* threeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeVc.m; sourceTree = "<group>"; };
+		CBD44D8D1CB368070084B504 /* fourVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourVc.h; sourceTree = "<group>"; };
+		CBD44D8E1CB368070084B504 /* fourVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourVc.m; sourceTree = "<group>"; };
+		CBD44D901CB368130084B504 /* fireVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fireVc.h; sourceTree = "<group>"; };
+		CBD44D911CB368130084B504 /* fireVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fireVc.m; sourceTree = "<group>"; };
+		CBD44D931CB3682A0084B504 /* sixVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixVc.h; sourceTree = "<group>"; };
+		CBD44D941CB3682A0084B504 /* sixVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sixVc.m; sourceTree = "<group>"; };
+		CBD44D961CB3684A0084B504 /* sevenVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sevenVc.h; sourceTree = "<group>"; };
+		CBD44D971CB3684A0084B504 /* sevenVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sevenVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,8 @@
 		CBD44D451CB362000084B504 /* WJSegmentMeunVc */ = {
 			isa = PBXGroup;
 			children = (
-				CBD44D491CB362000084B504 /* AppDelegate.h */,
-				CBD44D4A1CB362000084B504 /* AppDelegate.m */,
-				CBD44D4C1CB362000084B504 /* ViewController.h */,
-				CBD44D4D1CB362000084B504 /* ViewController.m */,
+				CBD44D791CB362990084B504 /* WJSegmentMenuVc */,
+				CBD44D7A1CB362990084B504 /* WJSegmentMenuVcDemo */,
 				CBD44D4F1CB362000084B504 /* Main.storyboard */,
 				CBD44D521CB362000084B504 /* Assets.xcassets */,
 				CBD44D541CB362000084B504 /* LaunchScreen.storyboard */,
@@ -138,6 +163,42 @@
 				CBD44D6D1CB362000084B504 /* Info.plist */,
 			);
 			path = WJSegmentMeunVcUITests;
+			sourceTree = "<group>";
+		};
+		CBD44D791CB362990084B504 /* WJSegmentMenuVc */ = {
+			isa = PBXGroup;
+			children = (
+				CBD44D811CB363AB0084B504 /* WJSegmentMenuVc.h */,
+				CBD44D821CB363AB0084B504 /* WJSegmentMenuVc.m */,
+			);
+			path = WJSegmentMenuVc;
+			sourceTree = "<group>";
+		};
+		CBD44D7A1CB362990084B504 /* WJSegmentMenuVcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CBD44D7B1CB362990084B504 /* AppDelegate.h */,
+				CBD44D7C1CB362990084B504 /* AppDelegate.m */,
+				CBD44D7D1CB362990084B504 /* ViewController.h */,
+				CBD44D7E1CB362990084B504 /* ViewController.m */,
+				CBD44D841CB365050084B504 /* oneVc.h */,
+				CBD44D851CB365050084B504 /* oneVc.m */,
+				CBD44D871CB365150084B504 /* twoVc.h */,
+				CBD44D881CB365150084B504 /* twoVc.m */,
+				CBD44D8A1CB367FA0084B504 /* threeVc.h */,
+				CBD44D8B1CB367FA0084B504 /* threeVc.m */,
+				CBD44D8D1CB368070084B504 /* fourVc.h */,
+				CBD44D8E1CB368070084B504 /* fourVc.m */,
+				CBD44D901CB368130084B504 /* fireVc.h */,
+				CBD44D911CB368130084B504 /* fireVc.m */,
+				CBD44D931CB3682A0084B504 /* sixVc.h */,
+				CBD44D941CB3682A0084B504 /* sixVc.m */,
+				CBD44D961CB3684A0084B504 /* sevenVc.h */,
+				CBD44D971CB3684A0084B504 /* sevenVc.m */,
+				CB0452E41CB4B49400733DC4 /* eigthVc.h */,
+				CB0452E51CB4B49400733DC4 /* eigthVc.m */,
+			);
+			path = WJSegmentMenuVcDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD44D4E1CB362000084B504 /* ViewController.m in Sources */,
-				CBD44D4B1CB362000084B504 /* AppDelegate.m in Sources */,
+				CBD44D921CB368130084B504 /* fireVc.m in Sources */,
+				CBD44D8F1CB368070084B504 /* fourVc.m in Sources */,
+				CB0452E61CB4B49400733DC4 /* eigthVc.m in Sources */,
+				CBD44D861CB365050084B504 /* oneVc.m in Sources */,
+				CBD44D801CB362990084B504 /* ViewController.m in Sources */,
+				CBD44D8C1CB367FA0084B504 /* threeVc.m in Sources */,
+				CBD44D951CB3682A0084B504 /* sixVc.m in Sources */,
+				CBD44D7F1CB362990084B504 /* AppDelegate.m in Sources */,
+				CBD44D981CB3684A0084B504 /* sevenVc.m in Sources */,
+				CBD44D891CB365150084B504 /* twoVc.m in Sources */,
+				CBD44D831CB363AB0084B504 /* WJSegmentMenuVc.m in Sources */,
 				CBD44D481CB362000084B504 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +568,7 @@
 				CBD44D721CB362000084B504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD44D731CB362000084B504 /* Build configuration list for PBXNativeTarget "WJSegmentMeunVcTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +577,7 @@
 				CBD44D751CB362000084B504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD44D761CB362000084B504 /* Build configuration list for PBXNativeTarget "WJSegmentMeunVcUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +586,7 @@
 				CBD44D781CB362000084B504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
